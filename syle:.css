@@ -1,0 +1,35 @@
+#gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+  }
+  
+  .square:hover {
+    background-color: #ddd;
+  }
+  
+  #message {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #reset {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+  }
